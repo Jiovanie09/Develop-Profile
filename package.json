@@ -1,0 +1,25 @@
+{
+  "name": "developer-profile-generator",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiovanie09/Developer-Profile-Generator.git"
+  },
+  "author": "jiovanie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiovanie09/Developer-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Jiovanie09/Developer-Profile-Generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0",
+    "puppeteer": "^2.1.1"
+  }
+}
